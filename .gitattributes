@@ -1,0 +1,16 @@
+# .gitattributes
+
+# Folder API
+API/* filter=lfs diff=lfs merge=lfs -text
+
+# Folder website
+website/* filter=lfs diff=lfs merge=lfs -text
+
+# File README.md
+README.md !filter !diff !merge
+
+# File SISTEM-KLASIFIKASI-JENIS-TUMOR-OTAK.ipynb
+PROYEK_AKHIR_KELAS_PENGEMBANGAN_MACHINE_LEARNING.ipynb filter=lfs diff=lfs merge=lfs -text
+
+# .zip files
+*.zip filter=lfs diff=lfs merge=lfs -text
